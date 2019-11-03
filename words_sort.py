@@ -1,0 +1,7 @@
+print("enter the words separated by comma with no spaces in between ! ")
+x=input()
+words=x.split(",")
+print("Before alphabetical order sorting : ")print(words)
+words.sort()
+print("After alphabetical order sorting : ")
+print(words)
